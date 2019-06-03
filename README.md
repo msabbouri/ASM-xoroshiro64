@@ -1,0 +1,2 @@
+# xoroshiro64
+In this project I used the bitwise operations, shifts, and rotates to implement the xoroshiro64** pseudo-random number generator. See http://xoshiro.di.unimi.it/ for the details on how it works, or read ahead for a description of the algorithm. You shouldn’t run the executable directly to test it, as it will just print a bunch of garbage to the screen. Instead, send its output to the RNG_test utility: ./xoroshiro64 | RNG_test stdin
